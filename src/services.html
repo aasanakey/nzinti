@@ -22,23 +22,23 @@
                 <button class="m-navbar-toggler text-3xl cursor-pointer mx-2 md:hidden block" title="open-menu">
                     <i class="fa-solid fa-bars"></i>
                 </button>
-                <ul class="m-navbar-collapse hidden h-full md:flex md:items-center md:ml-6 md:z-auto md:w-auto md:opacity-100">
+                <ul
+                    class="m-navbar-collapse hidden h-full md:flex md:items-center md:ml-6 md:z-auto md:w-auto md:opacity-100">
                     <li class="nav-item"><a href="/">Home</a></li>
-                    <li class="nav-item"><a href="about.html">About Us</a></li>
+                    <li class="nav-item"><a href="/about.html">About Us</a></li>
                     <li class="nav-item active"><a href="/services.html">Service</a></li>
                     <li class="nav-item"><a href="/pest-library.html">Pest Library</a> </li>
                     <li class="nav-item"><a href="/contact-us.html">Contact Us</a> </li>
                 </ul>
             </div>
-            <button
-                class="quote-btn text-white uppercase px-6 py-2">
+            <button class="quote-btn text-white uppercase px-6 py-2">
                 Get a Quote
             </button>
         </nav>
         <div class="mobile-navbar hide">
             <ul class="mobile-navbar-collapse">
                 <li class="nav-item mx-4 my-6 md:my-0"><a href="/">Home</a></li>
-                <li class="nav-item mx-4 my-6 md:my-0"><a href="about.html">About Us</a></li>
+                <li class="nav-item mx-4 my-6 md:my-0"><a href="/about.html">About Us</a></li>
                 <li class="nav-item mx-4 my-6 md:my-0 active"><a href="/services.html">Service</a></li>
                 <li class="nav-item mx-4 my-6 md:my-0"><a href="/pest-library.html">Pest Library</a> </li>
                 <li class="nav-item mx-4 my-6 md:my-0"><a href="/contact-us.html">Contact Us</a> </li>
@@ -49,7 +49,7 @@
         <section class="flex items-center justify-center bg-cover bg-no-repeat w-full h-60 lg:h-80 bg-black bg-blend-overlay bg-opacity-75 bg-[url('~img/IMG_20211006_121309_864.jpg')] border-b-4 border-solid border-nz-blue">
             <h1 class="text-secondary text-5xl font-extrabold uppercase">Services</h1>
         </section>
-        <section class="container mx-auto p-4">
+        <section class="container mx-auto p-4" id="preconstrution_anti_termite_treatment">
             <p class="text-[#036808] text-5xl text-center font-bold font-['Myriad_Pro'] my-5">Who We Do</p>
             <div class="grid grid-cols-2 gap-3">
                 <div class="col-span-full md:col-span-1">
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mx-auto">
+        <section class="container mx-auto" id="disinfection_services">
             <div class="grid grid-cols-2 gap-3 md:gap-0">
                 <div class="col-span-full md:col-span-1">
                     <div class="h-full lg:max-h-[550px] w-full">
@@ -116,7 +116,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mx-auto">
+        <section class="container mx-auto" id="residential_pest_control">
             <div class="grid grid-cols-2 gap-3 md:gap-0">
                 <div class="col-span-full md:col-span-1  p-4">
                     <p class="font-bold uppercase text-primary text-lg lg:text-2xl">RESIDENTIAL PEST CONTROL</p>
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mx-auto mb-3">
+        <section class="container mx-auto mb-3" id="commercial_pest_control">
             <div class="grid grid-cols-2 gap-3 md:gap-0">
                 <div class="col-span-full md:col-span-1">
                     <div class="h-full lg:max-h-[550px] w-full">
@@ -180,8 +180,9 @@
                 <h6 class="title">Contact Us</h6>
                 <ul>
                     <li><i class="fa-solid fa-earth-africa"></i>&nbsp;</i>Adweso, Koforidua - Ghana</li>
-                    <li><a href="tel:+233543873784"><i class="fa-solid fa-phone"></i>&nbsp;</i>(+233)543 873 784</a></li>
-                    <li><a href="mailto:nzintienterprise@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp;</i>nzintienterprise@gmail.com</a></li>
+                    <li><a href="tel:+233550360142"><i class="fa-solid fa-phone"></i>&nbsp;</i>(+233)550360142</a></li>
+                    <li><a href="mailto:nzintienterprise@gmail.com"><i
+                                class="fa-solid fa-envelope"></i>&nbsp;</i>nzintienterprise@gmail.com</a></li>
                 </ul>
             </div>
             <div>
@@ -198,18 +199,21 @@
             <div>
                 <h6 class="title">Services</h6>
                 <ul>
-                    <li>Residential Pest Control</li>
-                    <li>Commercial Pest Control</li>
-                    <li>Anti-Termite Treatment</li>
-                    <li>Disinfection Services</li>
+                    <li><a href="services.html#residential_pest_control">Residential Pest Control</a></li>
+                    <li><a href="services.html#commercial_pest_control">Commercial Pest Control</a></li>
+                    <li><a href="services.html#preconstrution_anti_termite_treatment">Anti-Termite Treatment</a></li>
+                    <li><a href="services.html#disinfection_services">Disinfection Services</a></li>
+                    <li><a href="services.html#">Pest Control Assessment</a></li>
                 </ul>
             </div>
             <div>
                 <h6 class="title">Follow US</h6>
                 <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://web.facebook.com/nzintienterprise" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/nzi_nti_enterprise_gh/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
                 </div>
             </div>
         </div>
