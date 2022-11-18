@@ -14,7 +14,7 @@ const carousel = new Swiper(".carousel", {
   autoplay: {
     delay: 5000,
   },
-
+  autoHeight: true,
   // If we need pagination
   pagination: {
     el: ".swiper-pagination",
